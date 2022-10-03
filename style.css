@@ -3,3 +3,39 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D4A76A;
+}
+
+button {
+  background-color: #805215;
+  color: white;
+}
+
+.title {
+  color: #553100;
+  margin-left: 30px;
+  font-size: 25pt;
+}
+
+.navigation {
+  background-color: #FFDBAA;
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  border-bottom-style: solid;
+  margin: 0;
+}
+
+.navigation-button {
+  text-align: center;
+  margin-right: 30px;
+  margin-top: 20px;
+  width: 110px;
+  padding: 12px;
+  font-size: 15pt;
+  border: none;
+}
